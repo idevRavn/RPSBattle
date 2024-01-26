@@ -10,6 +10,10 @@ This is a simple implementation of the classic Rock, Paper, Scissors game in htm
 - [Contributing](#contributing)
 - [License](#license)
 
+## Live Website
+
+https://idevravn.github.io/RPSBattle/
+
 ## Features
 
 - Play Rock, Paper, Scissors against the computer.
