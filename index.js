@@ -11,3 +11,16 @@ function getComputerChoice() {
       return "error";
   }
 }
+
+function getPlayerChoice() {
+  let playerChoice = prompt("Rock, Paper, or Scissors?");
+  if (
+    playerChoice.toLowerCase() === "rock" ||
+    playerChoice.toLowerCase() === "paper" ||
+    playerChoice.toLowerCase() === "scissors"
+  ) {
+    return playerChoice.toLowerCase();
+  } else {
+    return "error";
+  }
+}
