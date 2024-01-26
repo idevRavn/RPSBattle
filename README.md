@@ -2,6 +2,10 @@
 
 This is a simple implementation of the classic Rock, Paper, Scissors game in html and javascript. Players can play against the computer and make their choices.
 
+## Live Website
+
+https://idevravn.github.io/RPSBattle/
+
 ## Table of Contents
 
 - [Features](#features)
@@ -9,10 +13,6 @@ This is a simple implementation of the classic Rock, Paper, Scissors game in htm
 - [Game Rules](#game-rules)
 - [Contributing](#contributing)
 - [License](#license)
-
-## Live Website
-
-https://idevravn.github.io/RPSBattle/
 
 ## Features
 
