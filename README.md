@@ -36,7 +36,7 @@ To view the Cat Kingdom Website:
 
 ## Contributing
 
-Contributions are welcome! If you have ideas for improvement or want to add features, please fork the repository and submit a pull request. Let's make the Cat Kingdom even more delightful together.
+Contributions are welcome! If you have ideas for improvement or want to add features, please fork the repository and submit a pull request.
 
 ## License
 
