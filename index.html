@@ -6,10 +6,43 @@
     <title>RPS Battle</title>
   </head>
   <body>
-    <h1>RPS Battle</h1>
-    <p id="playerScore">PlayerScore: 0</p>
-    <p id="computerScore">Computer Score: 0</p>
-    <p id="gameWinner">Final Result : Wait</p>
-    <script src="index.js"></script>
+    <div class="header">
+      <h1>
+        Rock Paper Scissors<br />
+        Battle
+      </h1>
+    </div>
+    <div class="final-score">
+      <div>
+        <h4>You: <span id="user-score">0</span></h4>
+      </div>
+      <div>
+        <h4>Computer: <span id="computer-score">0</span></h4>
+      </div>
+    </div>
+    <div class="battle-field">
+      <div class="weapons">
+        <div class="rock-img">
+          <img src="./images/rock.png" alt="Rock" />
+        </div>
+        <div class="paper">
+          <img src="./images/paper.png" alt="Paper" />
+        </div>
+        <div class="scissors">
+          <img src="./images/scissors.png" alt="Scissors" />
+        </div>
+      </div>
+      <div class="weapons-selected">
+        <div id="user-selected">
+          <h3 class="rules">Choose your weapons to fight!</h3>
+        </div>
+        <div id="computer-selected">
+          <h3 class="rules">First to score 5 points wins the game</h3>
+        </div>
+        <div id="round-win">
+          <h4 id="round-win-text">SOON</h4>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
