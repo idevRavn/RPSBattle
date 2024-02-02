@@ -2,33 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <title>RPS Battle</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="header">
       <h1>
         Rock Paper Scissors<br />
-        Battle
+        <span id="black-text">Battle</span>
       </h1>
     </div>
     <div class="final-score">
-      <div>
-        <h4>You: <span id="user-score">0</span></h4>
+      <div class="score-card">
+        <h4>You: 0</h4>
       </div>
-      <div>
-        <h4>Computer: <span id="computer-score">0</span></h4>
+      <div class="score-card">
+        <h4>Computer: 0</h4>
       </div>
     </div>
     <div class="battle-field">
       <div class="weapons">
-        <div class="rock-img">
+        <div class="img-btn">
           <img src="./images/rock.png" alt="Rock" />
         </div>
-        <div class="paper">
+        <div class="img-btn">
           <img src="./images/paper.png" alt="Paper" />
         </div>
-        <div class="scissors">
+        <div class="img-btn">
           <img src="./images/scissors.png" alt="Scissors" />
         </div>
       </div>
@@ -43,6 +44,15 @@
           <h4 id="round-win-text">SOON</h4>
         </div>
       </div>
+    </div>
+    <div class="footer">
+      <p>Made by Sanu</p>
+      <a href="https://github.com/idevRavn" target="_blank"
+        ><img
+          src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+          alt="Github Logo"
+          height="20px"
+      /></a>
     </div>
   </body>
 </html>
