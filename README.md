@@ -1,6 +1,6 @@
 # RPS Battle
 
-This is a simple implementation of the classic Rock, Paper, Scissors game in html and javascript. Players can play against the computer and make their choices.
+Welcome to the Rock, Paper, Scissors Battle game! Compete against the computer and be the first to score 5 points to win the game.
 ![RPS Battle Website Preview](./images/preview.png)
 
 ## Live Website
@@ -13,6 +13,7 @@ https://idevravn.github.io/RPSBattle/
 - [Getting Started](#getting-started)
 - [Game Rules](#game-rules)
 - [Acknowledgments](#acknowledgments)
+- [Built With](#built-with)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -44,6 +45,12 @@ To view the RPS Battle Website:
 ## Acknowledgments
 
 - Images: [Provided by Flaticon](https://www.flaticon.com/)
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
 
 ## Contributing
 
