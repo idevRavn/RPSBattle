@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RPS Battle</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -15,34 +15,41 @@
     </div>
     <div class="final-score">
       <div class="score-card">
-        <h4>You: 0</h4>
+        <h4>You: <span id="player-score-txt">0</span></h4>
       </div>
       <div class="score-card">
-        <h4>Computer: 0</h4>
+        <h4>Computer: <span id="computer-score-txt">0</span></h4>
       </div>
     </div>
     <div class="battle-field">
       <div class="weapons">
         <div class="img-btn">
-          <img src="./images/rock.png" alt="Rock" />
+          <button id="rock" value="rock">
+            <img src="./images/rock.png" alt="Rock" />
+          </button>
         </div>
         <div class="img-btn">
-          <img src="./images/paper.png" alt="Paper" />
+          <button id="paper" value="paper">
+            <img src="./images/paper.png" alt="Paper" />
+          </button>
         </div>
         <div class="img-btn">
-          <img src="./images/scissors.png" alt="Scissors" />
+          <button id="scissors" value="scissors">
+            <img src="./images/scissors.png" alt="Scissors" />
+          </button>
         </div>
       </div>
       <div class="weapons-selected">
-        <div id="user-selected">
-          <h3 class="rules">Choose your weapons to fight!</h3>
+        <div>
+          <h3 id="user-selected">Choose your weapons to fight!</h3>
         </div>
-        <div id="computer-selected">
-          <h3 class="rules">First to score 5 points wins the game</h3>
+        <div>
+          <h3 id="computer-selected">First to score 5 points wins the game</h3>
         </div>
         <div id="round-win">
           <h4 id="round-win-text">SOON</h4>
         </div>
+        <div id="play-again"></div>
       </div>
     </div>
     <div class="footer">
@@ -54,5 +61,7 @@
           height="20px"
       /></a>
     </div>
+
+    <script src="./index.js"></script>
   </body>
 </html>
